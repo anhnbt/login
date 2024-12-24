@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;500;700&display=swap"
+          rel="stylesheet">
+    <!-- MDB -->
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.1.0/mdb.min.css"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div class="container">
+    <section class="login-section">
+        <div class="logo">Digital</div>
+
+        <h1>Artificial Intelligence Driving Results For The Travel Industry</h1>
+        <p class="text-body my-4">Welcome back! Please login to your account.</p>
+
+        <div class="row">
+            <form class="col s12">
+                <div class="form-outline rounded-0" data-mdb-input-init>
+                    <input id="email" type="email" class="form-control form-control-lg rounded-0 py-3"
+                           value="hakeem@digital.com">
+                    <label for="email" class="form-label">Email Address</label>
+                </div>
+                <div class="form-outline" data-mdb-input-init>
+                    <input id="password" type="password" class="form-control form-control-lg rounded-0 py-3"
+                           value="123456789">
+                    <label for="password" class="form-label">Password</label>
+                </div>
+
+                <div class="d-flex justify-content-between mt-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">Remember Me</label>
+                    </div>
+                    <div class="">
+                        <a href="#" class="text-body">Forgot Password?</a>
+                    </div>
+                </div>
+
+                <div class="d-grid gap-3 d-md-block my-5">
+                    <button class="btn btn-primary btn-lg" type="submit" data-mdb-ripple-init>Login</button>
+                    <button class="btn btn-outline-primary btn-lg" type="button" data-mdb-ripple-init
+                            data-mdb-ripple-color="dark">Sign Up
+                    </button>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <p>Or login with</p>
+                    <a href="#" class="social-btn fw-bold">Facebook</a>
+                    <a href="#" class="social-btn fw-bold">LinkedIn</a>
+                    <a href="#" class="social-btn fw-bold">Google</a>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="illustration-section">
+        <nav class="navbar navbar-expand-lg navbar-light shadow-0" style="background-color: transparent;" data-mdb-theme="light">
+            <div class="container-fluid">
+                <div
+                        class="collapse navbar-collapse justify-content-center"
+                        id="navbarCenteredExample"
+                >
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item"><a href="#" class="nav-link active border-bottom border-primary border-2">Home</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">About us</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="illustration">
+            <img src="./images/illustration.png" alt="Cyclist illustration" class="img-fluid">
+        </div>
+    </section>
+</div>
+<!-- MDB -->
+<script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.1.0/mdb.umd.min.js"
+></script>
+</body>
+</html>
